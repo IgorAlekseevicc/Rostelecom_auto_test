@@ -1,18 +1,17 @@
 import time
 
 import pytest
-from pygments.styles.dracula import yellow
 from pytest_selenium import driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 #Введите в переменные свои данные
-number = '' #Номер телефона
-password = '.' #Пароль
-username = '@gmail.com' #Почта
-login = '' #Логин, появится после регистрации в ЛК
-personal_account = ' ' #Лицевой счет, появится после регистрации в ЛК
+number = '89133674749' #Номер телефона
+password = '19862604Qq.' #Пароль
+username = 'igoralekseevicc@gmail.com' #Почта
+login = 'rtkid_1741101158974' #Логин, появится после регистрации в ЛК
+personal_account = '670010831359 ' #Лицевой счет, появится после регистрации в ЛК
 
 @pytest.fixture(autouse=True)
 def driver():
